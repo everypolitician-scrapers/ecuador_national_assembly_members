@@ -84,7 +84,7 @@ def scrape_list(url)
         # there is the odd row with duplicated data but no id.
         next if not id
 
-        source = URI.join(url, trs[1].css('p.right strong a/@href').to_s)
+        source = URI.join(url, trs[1].css('p.right strong a/@href').text.to_s).to_s
 
         contacts = get_contacts(trs[1])
 
