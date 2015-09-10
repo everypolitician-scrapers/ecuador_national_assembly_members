@@ -82,7 +82,7 @@ def scrape_list(url)
         party = party_for_member[id]
 
         # there is the odd row with duplicated data but no id.
-        next if not id
+        next if id.size == 0
 
         source = URI.join(url, trs[1].css('p.right strong a/@href').text.to_s).to_s
 
