@@ -67,6 +67,9 @@ def scrape_list(url)
         name = trs[0].css('td strong').inner_html.split('<br>').first
         area = trs[0].css('td em').text.split('por').last
         img = trs[1].css('td img/@src').first.to_s
+        # unset placeholder image
+        img = '' if img.index('mystery-man')
+
         # the id in the image matches the uid from the party lists
         # collected earlier so extract that
         id = img.gsub(/.*picture-/, '').gsub(/-.*$/, '')
