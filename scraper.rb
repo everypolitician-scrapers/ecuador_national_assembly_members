@@ -9,6 +9,12 @@ require 'json'
 
 OpenURI::Cache.cache_path = '.cache'
 
+class String
+  def tidy
+    self.gsub(/[[:space:]]+/, ' ').strip
+  end
+end
+
 def noko_for(url)
   Nokogiri::HTML(open(url).read)
 end
@@ -34,7 +40,7 @@ def get_party_data(noko)
         id = section.css('@id').first.to_s
         next if not id.index('lresult')
         id = id.gsub('lresult-', '')
-        party = section.css('p.title a').first.text
+        party = section.css('p.title a').first.text.to_s.tidy
         uri = URI('http://www.asambleanacional.gob.ec/es/pleno-asambleistas/getPartidos')
         data = Net::HTTP.post_form(uri, 'idPartido' => id)
         party_data = JSON.parse(data.body)
@@ -64,8 +70,8 @@ def scrape_list(url)
     wrapper = noko.css('div#wrapper')
     wrapper.css('div.pin').each do |person|
         trs = person.css('table tr')
-        name = trs[0].css('td strong').inner_html.split('<br>').first
-        area = trs[0].css('td em').text.split('por').last
+        name = trs[0].css('td strong').inner_html.split('<br>').first.to_s.tidy
+        area = trs[0].css('td em').text.split('por').last.to_s.tidy
         img = trs[1].css('td img/@src').first.to_s
         # unset placeholder image
         img = '' if img.index('mystery-man')
