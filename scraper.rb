@@ -84,6 +84,8 @@ def scrape_list(url)
         # there is the odd row with duplicated data but no id.
         next if not id
 
+        source = URI.join(url, trs[1].css('p.right strong a/@href').to_s)
+
         contacts = get_contacts(trs[1])
 
         # the gendered icon is in a separate dive from the main details
@@ -102,6 +104,7 @@ def scrape_list(url)
             img: img,
             faction: party,
             gender: gender,
+            source: source,
         }
 
         data = data.merge(contacts)
