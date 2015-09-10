@@ -48,12 +48,14 @@ end
 
 # they have gendered icons in the map of the chamber although the names
 # are inconsistent
+# this does not work for the president and vice presidents though
 def get_gender(icon)
     return 'male' if icon.index('masculino')
     return 'male' if icon.index('hombre')
     return 'male' if icon.index('man')
     return 'female' if icon.index('femenino')
     return 'female' if icon.index('woman')
+    return 'female' if icon.index('mujer')
 end
 
 def scrape_list(url)
