@@ -4,7 +4,7 @@
 require 'scraperwiki'
 require 'nokogiri'
 require 'net/http'
-require 'open-uri/cached'
+require 'scraped_page_archive/open-uri'
 require 'json'
 
 OpenURI::Cache.cache_path = '.cache'
