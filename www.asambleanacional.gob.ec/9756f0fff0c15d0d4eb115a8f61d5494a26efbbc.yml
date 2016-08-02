@@ -1,0 +1,56 @@
+---
+request:
+  method: get
+  uri: http://www.asambleanacional.gob.ec/es/pleno-asambleistas
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Tue, 02 Aug 2016 15:37:28 GMT
+    Server:
+    - Apache
+    X-Powered-By:
+    - PHP/5.3.3
+    X-Drupal-Cache:
+    - HIT
+    Etag:
+    - '"1470152210-1"'
+    Content-Language:
+    - es
+    X-Generator:
+    - Drupal 7 (http://drupal.org)
+    Link:
+    - <http://www.asambleanacional.gob.ec/es/pleno-asambleistas>; rel="canonical",<http://www.asambleanacional.gob.ec/es/pleno-asambleistas>;
+      rel="shortlink"
+    Cache-Control:
+    - public, max-age=180
+    Last-Modified:
+    - Tue, 02 Aug 2016 15:36:50 GMT
+    Expires:
+    - Sun, 19 Nov 1978 05:00:00 GMT
+    Vary:
+    - Cookie,Accept-Encoding
+    Content-Type:
+    - text/html; charset=utf-8
+    Via:
+    - 1.1 www.asambleanacional.gob.ec
+    Connection:
+    - close
+    Transfer-Encoding:
+    - chunked
+  body:
+    encoding: ASCII-8BIT
+  http_version: 
+recorded_at: Tue, 02 Aug 2016 15:37:28 GMT
