@@ -18,15 +18,17 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 05 Aug 2016 07:55:52 GMT
+    - Fri, 05 Aug 2016 15:40:24 GMT
     Server:
     - Apache
     X-Powered-By:
     - PHP/5.3.3
     X-Drupal-Cache:
-    - HIT
-    Etag:
-    - '"1470380140-1"'
+    - MISS
+    Expires:
+    - Sun, 19 Nov 1978 05:00:00 GMT
+    Cache-Control:
+    - public, max-age=180
     Content-Language:
     - es
     X-Generator:
@@ -34,12 +36,10 @@ response:
     Link:
     - <http://www.asambleanacional.gob.ec/es/pleno-asambleistas>; rel="canonical",<http://www.asambleanacional.gob.ec/es/pleno-asambleistas>;
       rel="shortlink"
-    Cache-Control:
-    - public, max-age=180
+    Etag:
+    - '"1470411624-1"'
     Last-Modified:
-    - Fri, 05 Aug 2016 06:55:40 GMT
-    Expires:
-    - Sun, 19 Nov 1978 05:00:00 GMT
+    - Fri, 05 Aug 2016 15:40:24 GMT
     Vary:
     - Cookie,Accept-Encoding
     Content-Type:
@@ -53,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 05 Aug 2016 07:55:55 GMT
+recorded_at: Fri, 05 Aug 2016 15:40:28 GMT
