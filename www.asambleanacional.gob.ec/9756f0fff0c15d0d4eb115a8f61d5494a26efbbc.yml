@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Mon, 26 Sep 2016 10:01:04 GMT
+    - Tue, 27 Sep 2016 16:18:27 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -26,7 +26,7 @@ response:
     X-Drupal-Cache:
     - HIT
     Etag:
-    - '"1474879505-1"'
+    - '"1474992496-1"'
     Content-Language:
     - es
     X-Generator:
@@ -37,7 +37,7 @@ response:
     Cache-Control:
     - public, max-age=180
     Last-Modified:
-    - Mon, 26 Sep 2016 08:45:05 GMT
+    - Tue, 27 Sep 2016 16:08:16 GMT
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Vary:
@@ -53,4 +53,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 26 Sep 2016 10:01:05 GMT
+recorded_at: Tue, 27 Sep 2016 16:18:27 GMT
