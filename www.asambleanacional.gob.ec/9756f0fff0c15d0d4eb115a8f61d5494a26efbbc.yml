@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 18 Nov 2016 12:31:09 GMT
+    - Sat, 19 Nov 2016 13:59:15 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -26,7 +26,7 @@ response:
     X-Drupal-Cache:
     - HIT
     Etag:
-    - '"1479470917-1"'
+    - '"1479556412-1"'
     Content-Language:
     - es
     X-Generator:
@@ -37,7 +37,7 @@ response:
     Cache-Control:
     - public, max-age=180
     Last-Modified:
-    - Fri, 18 Nov 2016 12:08:37 GMT
+    - Sat, 19 Nov 2016 11:53:32 GMT
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Vary:
@@ -49,8 +49,8 @@ response:
     Connection:
     - close
     Content-Length:
-    - '39488'
+    - '39483'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 18 Nov 2016 12:31:10 GMT
+recorded_at: Sat, 19 Nov 2016 13:59:16 GMT
