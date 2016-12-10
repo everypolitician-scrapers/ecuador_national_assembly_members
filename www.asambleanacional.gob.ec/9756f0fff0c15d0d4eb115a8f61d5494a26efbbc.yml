@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Fri, 09 Dec 2016 14:59:44 GMT
+    - Sat, 10 Dec 2016 11:37:41 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -26,7 +26,7 @@ response:
     X-Drupal-Cache:
     - HIT
     Etag:
-    - '"1481295267-1"'
+    - '"1481361945-1"'
     Content-Language:
     - es
     X-Generator:
@@ -37,20 +37,18 @@ response:
     Cache-Control:
     - public, max-age=180
     Last-Modified:
-    - Fri, 09 Dec 2016 14:54:27 GMT
+    - Sat, 10 Dec 2016 09:25:45 GMT
     Expires:
     - Sun, 19 Nov 1978 05:00:00 GMT
     Vary:
     - Cookie,Accept-Encoding
     Content-Type:
     - text/html; charset=utf-8
-    Via:
-    - 1.1 www.asambleanacional.gob.ec
     Connection:
     - close
     Content-Length:
-    - '39476'
+    - '39474'
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 09 Dec 2016 14:59:45 GMT
+recorded_at: Sat, 10 Dec 2016 11:37:42 GMT
