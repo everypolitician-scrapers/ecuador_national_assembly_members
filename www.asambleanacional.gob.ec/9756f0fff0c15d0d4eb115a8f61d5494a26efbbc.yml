@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Thu, 06 Apr 2017 06:39:49 GMT
+    - Fri, 07 Apr 2017 21:52:49 GMT
     Server:
     - Apache
     X-Powered-By:
@@ -37,9 +37,9 @@ response:
     - <http://www.asambleanacional.gob.ec/es/pleno-asambleistas>; rel="canonical",<http://www.asambleanacional.gob.ec/es/pleno-asambleistas>;
       rel="shortlink"
     Etag:
-    - '"1491460789-1"'
+    - '"1491601969-1"'
     Last-Modified:
-    - Thu, 06 Apr 2017 06:39:49 GMT
+    - Fri, 07 Apr 2017 21:52:49 GMT
     Vary:
     - Cookie,Accept-Encoding
     Content-Type:
@@ -51,4 +51,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 06 Apr 2017 06:39:53 GMT
+recorded_at: Fri, 07 Apr 2017 21:52:52 GMT
